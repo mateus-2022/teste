@@ -39,3 +39,29 @@ p.description {
 .link {
     width: .8rem;
 }
+
+/* configurando modo responsivo */
+@media only screen and (min-width: 550px) {
+    
+    .container {
+        max-width: 500px;
+    }
+    
+    .photo {
+        width: 9rem;
+        margin-right: 1rem;
+    }
+    
+    a {
+        display: flex;
+    }
+    
+}
+
+@media only screen and (min-width: 950px) {
+    
+    html {
+        font-size: 18px;
+    }
+    
+}
