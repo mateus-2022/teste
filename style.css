@@ -7,3 +7,20 @@ body {
     background: #2D2E36;
     font-family: 'Poppins';
 }
+
+img {
+    width: 100%;
+    border-radius: .2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    background: #383A45;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: .4rem;
+    max-width: 270px;
+}
